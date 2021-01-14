@@ -5,6 +5,7 @@ deploy redmine:
 kubectl create deployment redmine --image=redmine
 kubectl expose deployment redmine --port=3000 --name=redmine
 ```
+> user: `admin` pass: `admin`
 
 delete everything:
 ```bash
